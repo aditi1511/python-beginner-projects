@@ -1,0 +1,19 @@
+def winner_RPS(p1,p2):
+  if p1 == 'rock' and p2 == 'scissors':
+    return p1
+  if p1 == 'scissors' and p2 == 'paper':
+    return p1
+  if p1 == 'paper' and p2 == 'rock':
+    return p1 
+  if p1 == 'rock' and p2 == 'rock':
+    return None
+  if p1 == 'scissors' and p2 == 'scissors':
+    return None
+  if p1 == 'paper' and p2 == 'paper':
+    return None
+  if p1 == 'scissors' and p2 == 'rock':
+    return p2
+  if p1 == 'paper' and p2 == 'scissors':
+    return p2
+  if p2 == 'paper' and p1 == 'rock':
+    return p2
